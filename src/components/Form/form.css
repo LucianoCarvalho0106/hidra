@@ -56,6 +56,7 @@ textarea{
     margin: 10px 20px;
     padding: 2em;
     color: #FFF;
+    resize: none;
 }
 textarea::placeholder{
     color: #FFF;

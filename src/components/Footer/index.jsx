@@ -4,7 +4,7 @@ export default function()
 {
     return(
         <footer>
-            <div>
+            <div className="container-divs">
                 <div> <img src="../../public/Frame.png" alt="logo" /></div>
                 <div>
                     <ul>
@@ -16,7 +16,7 @@ export default function()
                     </ul>
                 </div>
 
-                <div>
+                <div >
                 <ul>
                         <li>F.A.Q</li>
                         <li>SITEMAP</li>
@@ -26,9 +26,9 @@ export default function()
                     </ul>
                 </div>
 
-                <div>
+                <div className="content" >
                     <h4>SOCIALIZE WITH HYDRA</h4>
-                    <div>
+                    <div className="social-icons">
                         <button><img src="../../public/facebook.png" alt="" /></button>
                         <button><img src="../../public/twitter.png" alt="" /></button>
                         <button><img src="../../public/linkedin.png" alt="" /></button>
@@ -36,13 +36,15 @@ export default function()
                         <button><img src="../../public/instagram.png" alt="" /></button>
                         <button><img src="../../public/pinterest.png" alt="" /></button>
                     </div>
-                    <button>BUILD YOUR WORLD</button>
+                    <button id="button-footer">BUILD YOUR WORLD</button>
+                    <img className="vector19" src="../../public/Vector 19.png" alt="vector19" />
+                    <img className="vector18" src="../../public/Vector 18.png" alt="vector19" />
                 </div>
-               
+              
             </div>
-
-            <div>
-
+                <hr />
+            <div className="rodape">
+                <h5>2023 © HYDRA LANDING PAGE - BY ZINE. E. FALOUTI - ALL RIGHTS RESERVED </h5>
             </div>
         </footer>
     )
