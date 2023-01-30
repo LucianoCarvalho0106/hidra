@@ -1,0 +1,98 @@
+.tecnologies{
+    width: 80%;
+    background: linear-gradient(0deg, rgba(48, 44, 66, 0.2), rgba(48, 44, 66, 0.2)), url("../../../public/mulher.png");
+    background-size: cover;
+    padding: 5em;
+    border-radius: 7em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin-bottom: 5em;
+}
+.container-tecnologies{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2em;
+}
+
+.tecnologies span h2{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+    color: #FFFFFF;
+}
+.tecnologies h2{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 36px;
+    line-height: 44px;
+    color: #FFFFFF;
+}
+
+.tecnologies button{
+    background: linear-gradient(267.61deg, #C0B7E8 -0.6%, #8176AF 98.31%);
+    border-radius: 50%;
+    border: 1em solid #242029;
+    position: absolute;
+    bottom: -3em;
+    width: 7em;
+    height: 7em;
+    cursor: pointer;
+}
+.network{
+    max-width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+    gap: 2em;
+}
+.text-tecnologies{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 90%;
+    margin:  3em 0;
+    position: relative;
+}
+.text-tecnologies p{
+    max-width: 50%;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+
+}
+
+.text-tecnologies span h2{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+    color: #FFFFFF;
+}
+.text-tecnologies h2{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 36px;
+    line-height: 44px;
+    color: #FFFFFF;
+}
+
+.text-tecnologies img {
+    position: absolute;
+    top: 1.4em;
+    left: 21em;
+}

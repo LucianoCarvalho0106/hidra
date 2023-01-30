@@ -1,0 +1,84 @@
+
+main{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 4%;
+    margin-top: 3.5em;
+    position: relative;
+}
+
+main h1{
+    color: #FFFFFF;
+    font-size: 46px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    line-height: 56px;
+}
+main p{
+    Width:450px;
+    color: #FFFFFF;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    margin: 2em 0;
+}
+main button{
+    background: linear-gradient(90deg, #8176AF 0%, #C0B7E8 100%);
+    border: none;
+    color: #343045;
+    padding: 1.2em 1.4em;
+    border-radius: 40px;
+    font-size: 12px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+.color{
+    background-image: linear-gradient(to bottom, #C0B7E8, #8176AF);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.right{
+    width: 490px;
+    height: 426px;
+   background-image: url("../../public/pessoa.png");
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 100px 100px 100px 240px;
+}
+.left{
+    display: flex;
+    flex-direction: column;
+    margin-top: 2.6em;
+}
+.bottom{
+    display: flex;
+    align-items: center;
+}
+.bottom button{
+    margin-right: 3.5em;
+}
+.vector1{
+    position: absolute;
+    top: 2.4em;
+    left: 0;
+}
+.vector2{
+    position: absolute;
+    right: 4.3em;
+    top: -13em;
+    z-index: -1;
+}
+.vector3{
+    position: absolute;
+    right: 0em;
+    top: 12em;
+    z-index: -1;
+}
+.vector4{
+    position: absolute;
+    z-index: -1;
+    right: 0;
+}
