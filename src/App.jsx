@@ -7,6 +7,8 @@ import Tecnologies from "./components/Tecnologies"
 import Circulos from "./components/Circulos"
 import Form from "./components/Form"
 import Footer from "./components/Footer"
+import {EmblaCarousel} from "../../hidra/src/components/PrimeiroCarrosel/"
+
 
 function App() {
  
@@ -16,6 +18,7 @@ function App() {
       <Header></Header>
       <Main></Main>
       <Contact></Contact>
+      <EmblaCarousel></EmblaCarousel>
       <Section2></Section2>
       <Cards></Cards>
       <Tecnologies></Tecnologies>

@@ -7,6 +7,9 @@ section{
     margin-bottom: 2em;
     position: relative;
 }
+.lets{
+    display: none;
+}
 section h3 span{
     font-family: 'Montserrat';
     font-style: normal;
@@ -95,4 +98,58 @@ section button{
     z-index: -1;
     top: 30em;
     right: 0;
+}
+@media (max-width:820px){
+    .hiden{
+        display: none;
+    } 
+    .flex-collum{
+        display: flex;
+        flex-direction: column;
+    }
+    .seta-longa{
+        display: none;
+    }
+    .contents{
+        display: flex;
+        flex-direction: column;
+    }
+    .about{
+        display: none;
+    }
+    #introduction-h3{
+        margin: 3em auto;
+        margin-bottom: -2em;
+    }
+    .contents .text2{
+        order: 1;
+    }
+    .contents .why-build{
+        order: 2;
+    }
+    .vector7, .vector8{
+        display: none;
+    }
+    .eget{
+        margin: 5em auto;
+        margin-bottom: 0;
+        max-width: 80%;
+    }
+    .lets{
+        display: block;
+        margin-top: 3em;
+        margin-bottom: 5em;
+    }
+    .lets2{
+        display: none;
+    }
+    .why-build{
+        margin: 0 auto;
+    }
+    .text-vitae{
+        display: none;
+    }
+    .text2{
+        display: none;
+    }
 }

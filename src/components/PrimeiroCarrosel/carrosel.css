@@ -1,0 +1,55 @@
+
+.embla{
+    display: none;
+    margin-top: 5em;
+}
+
+@media (max-width:820px){
+    .embla {
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+      }
+      .embla__container {
+        display: flex;
+      }
+      .embla__slide {
+        min-width: 100%;
+      }
+    
+      .embla__slide .left-container,.center-container,.right-container{
+        background: radial-gradient(50% 2900.76% at 50% 53.89%, rgba(58, 52, 86, 0.95) 0%, #211E2E 100%);
+        box-shadow: 0px 4px 4px rgba(192, 183, 232, 0.01);
+        border-radius: 90px;
+        width: 95%;
+      }
+      .left-container,.center-container,.right-container{
+       display: flex;
+       justify-content: center;
+       position: relative;
+      }
+      .align{
+        display: flex;
+      }
+      .align .embla__next{
+        position: absolute;
+        right: 5em;
+        top: 1.7em;
+        background-color: transparent;
+        border: none;
+      }
+      .align .embla__prev{
+        position: absolute;
+        left: 5em;
+        top: 1.7em;
+        background-color: transparent;
+        border: none;
+      }
+      .prev{
+        transform: rotate(90deg);
+      }
+      .next{
+        transform: rotate(-90deg);
+      }
+      
+}
