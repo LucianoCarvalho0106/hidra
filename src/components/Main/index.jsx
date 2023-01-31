@@ -18,7 +18,7 @@ export default function Main(){
                     <button>BUILD YOUR WORLD</button>
                     <img className="vector3" src="../../public/Vector 3.png" alt="vector3" />
                     <img className="vector4" src="../../public/Vector 4.png" alt="vector4" />
-                    <img  src="../../public/shape.png" alt="seta" />
+                    <img className="seta"  src="../../public/shape.png" alt="seta" />
                 </div>
             </div>
             

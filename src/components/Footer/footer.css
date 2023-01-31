@@ -3,6 +3,7 @@ footer{
     flex-direction: column;
     justify-content: center;
 }
+
 .container-divs{
     display: flex;
     justify-content: center;
