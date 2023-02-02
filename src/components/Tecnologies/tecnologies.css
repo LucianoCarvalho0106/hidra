@@ -17,6 +17,7 @@
     justify-content: center;
     align-items: center;
     margin-bottom: 2em;
+    width: 100%;
 }
 
 .tecnologies span h2{
@@ -95,4 +96,23 @@
     position: absolute;
     top: 1.4em;
     left: 21em;
+}
+@media (max-width:820px){
+    .network,.text-tecnologies{
+        display: none;
+    }
+    .tecnologies{
+        width: 80%;
+        padding: 3em 0;
+        border-radius: 3em;
+    }
+    .tecnologies h2, .tecnologies span h2{
+        font-size: 1em;
+        line-height: 20px;
+    }
+    
+    .tecnologies button{
+        bottom: -4em;
+    }
+    
 }

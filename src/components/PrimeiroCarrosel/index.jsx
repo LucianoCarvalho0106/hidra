@@ -16,7 +16,7 @@ export const EmblaCarousel = () => {
 
   return (
     <div className="embla">
-      <div className="embla__viewport" ref={emblaRef}>
+      <div className="" ref={emblaRef}>
         <div className="embla__container">
 
           <div className="embla__slide">
@@ -27,8 +27,8 @@ export const EmblaCarousel = () => {
                    <img className="prev"  src="../../public/setaBaixa.png" alt="seta" />
                 </button>
                 <div >
-                    <h3>Pay Us a Visit</h3>
-                    <p>Union St, Seattle, WA 98101, United States</p>
+                    <h3 className="center">Pay Us a Visit</h3>
+                    <p className="wid">Union St, Seattle, WA 98101, United States</p>
                 </div>
                 <button className="embla__next" onClick={scrollNext}>
                     <img className="next"  src="../../public/setaBaixa.png" alt="seta" />

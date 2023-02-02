@@ -5,7 +5,7 @@ export default function()
     return(
         <footer>
             <div className="container-divs">
-                <div> <img src="../../public/Frame.png" alt="logo" /></div>
+                <div className="logo-footer"> <img src="../../public/Frame.png" alt="logo" /></div>
                 <div>
                     <ul>
                         <li>ABOUT</li>

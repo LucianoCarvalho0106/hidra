@@ -9,7 +9,10 @@ export default function Section2(){
                     <img className="seta-longa" src="../../public/Component 1.png" alt="seta longa" />
                 </div>
                 <div className="pessoa-oculos"></div>
-                <p className="eget">Eget mi proin sed libero enim sed faucibus turpis. Nisl rhoncus mattis rhoncus 
+                
+                <p className="eget" id="eget">
+                    <br></br>
+                    Eget mi proin sed libero enim sed faucibus turpis. Nisl rhoncus mattis rhoncus 
                     urna neque viverra justo. Vivamus at augue eget arcu dictum. Ultrices gravida 
                     dictum fusce ut placerat orci. Aenean et tortor at risus viverra adipiscing at in. 
                     Mattis aliquam faucibus purus in massa. Est placerat in egestas erat imperdiet 

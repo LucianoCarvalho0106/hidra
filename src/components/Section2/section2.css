@@ -37,6 +37,7 @@ section p {
 .introduction{
     display: flex;
     align-items:stretch;
+    max-width: 80%;
 }
 .introduction img{
     margin-left: 1.5em;
@@ -135,6 +136,9 @@ section button{
         margin-bottom: 0;
         max-width: 80%;
     }
+    #eget{
+        margin-top: 3em;
+    }
     .lets{
         display: block;
         margin-top: 3em;
@@ -151,5 +155,36 @@ section button{
     }
     .text2{
         display: none;
+    }
+    .introduction{
+        margin: 0 auto;
+    }
+    .pessoa-oculos{
+        margin: 0 auto;
+        margin-top: 8em;
+    }
+}
+
+@media (max-width:515px){
+    .pessoa-oculos{
+        width: 100%;
+        transform: matrix(-1, 0, 0, 1, 0, 0);
+        background-image: url("../../../public/Mask group.png");
+        background-size: contain;
+        background-repeat: no-repeat;
+        transform: rotatex(360deg);
+        margin-top: 8em;
+    }
+    #eget{
+        margin-top: -6.2em;
+        margin-bottom: 1em;
+        max-width: 100%;
+    }
+    .why-build{
+        margin: 1em auto;
+        margin-bottom: -3em;
+        text-align: center;
+
+
     }
 }
