@@ -1,18 +1,26 @@
 import "./tecnologies.css"
 
+import tech1 from "../../images/tech1.png"
+import tech2 from "../../images/tech2.png"
+import tech3 from "../../images/tech3.png"
+import tech4 from "../../images/tech4.png"
+import setaBaixa from "../../images/setaBaixa.png"
+import Component1 from "../../images/Component 1.png"
+
+
 export default function (){
     return(
         <div className="container-tecnologies">
             <div className="tecnologies">
                 <span><h2>TECHNOLOGIES & HARDWARE</h2></span>
                 <h2>USED BY HYDRA VR.</h2>
-                <button><img src="../../public/setaBaixa.png" alt="arrow bottom" /></button>
+                <button><img src={setaBaixa} alt="arrow bottom" /></button>
             </div>
             <div className="network">
-                <img src="../../public/tech4.png" alt="tech4" />
-                <img src="../../public/tech2.png" alt="tech2" />
-                <img src="../../public/tech3.png" alt="tech3" />
-                <img src="../../public/tech1.png" alt="tech1" />
+                <img src={tech4} alt="tech4" />
+                <img src={tech2} alt="tech2" />
+                <img src={tech3} alt="tech3" />
+                <img src={tech1} alt="tech1" />
             </div>
             <div className="text-tecnologies">
                 <div>
@@ -25,7 +33,7 @@ export default function (){
                     quis imperdiet massa tincidunt nunc. Viverra aliquet eget sit amet tellus. Ornare 
                     lectus sit amet est placerat in. Lectus magna fringilla urna porttitor rhoncus vitae.
                 </p>
-                <img className="setaLonga" src="../../public/Component 1.png" alt="seta longa" />
+                <img className="setaLonga" src={Component1} alt="seta longa" />
             </div>
         </div>
     )

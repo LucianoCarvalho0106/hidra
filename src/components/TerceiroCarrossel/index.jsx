@@ -1,7 +1,11 @@
 import "./terceiroCarrosel.css"
-
 import React, { useCallback } from 'react'
 import useEmblaCarousel from 'embla-carousel-react'
+
+import tech4 from "../../images/tech4.png"
+import tech2 from "../../images/tech2.png"
+import tech3 from "../../images/tech3.png"
+import tech1 from "../../images/tech1.png"
 
 export default function EmblaCarousel () {
   const [emblaRef, emblaApi] = useEmblaCarousel({loop:true})
@@ -20,26 +24,26 @@ export default function EmblaCarousel () {
         <div className="embla__container">
           
           <div className="embla__slide slide3">
-                <img src="../../public/tech4.png" alt="tech4" />
+                <img src={tech4} alt="tech4" />
           </div>
           
 
           
           <div className="embla__slide slide3"> 
 
-            <img src="../../public/tech2.png" alt="tech2" />
+            <img src={tech2} alt="tech2" />
             
           </div>
 
           <div className="embla__slide slide3">
             
-                    <img src="../../public/tech3.png" alt="tech3" />
+                    <img src={tech3} alt="tech3" />
                 
            </div>
           
           <div className="embla__slide slide3"> 
             
-            <img src="../../public/tech1.png" alt="tech1" />
+            <img src={tech1} alt="tech1" />
             
           </div> 
         </div>

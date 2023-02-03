@@ -2,6 +2,12 @@ import React, { useCallback } from 'react'
 import useEmblaCarousel from 'embla-carousel-react'
 import "./segundoCarrosel.css"
 
+import setaBaixa from "../../images/setaBaixa.png"
+import card4 from "../../images/card4.png"
+import card1 from "../../images/card1.png"
+import card2 from "../../images/card2.png"
+import card3 from "../../images/card3.png"
+
 export default function EmblaCarousel(){
   const [emblaRef, emblaApi] = useEmblaCarousel({loop:true})
 
@@ -20,9 +26,9 @@ export default function EmblaCarousel(){
           <div className="embla__slide">
           <div className='cartao'>
           <button className="embla__prev prev2-btn" onClick={scrollPrev}>
-            <img className="prev2"  src="../../public/setaBaixa.png" alt="seta" />
+            <img className="prev2"  src= {setaBaixa} alt="seta" />
           </button>
-                <img src="../../public/card4.png" alt="card4" />
+                <img src={card4} alt="card4" />
                 <h4>SIMULATION</h4>
                 <p>
                     Vitae sapien pellentesque habitant morbi
@@ -31,7 +37,7 @@ export default function EmblaCarousel(){
                 </p>
                 <button className='whidth'>TRY IT NOW</button>
                 <button className="embla__next next2-btn" onClick={scrollNext}>
-                  <img className="next2"  src="../../public/setaBaixa.png" alt="seta" />
+                  <img className="next2"  src={setaBaixa} alt="seta" />
                 </button>
             </div>
           </div>
@@ -39,9 +45,9 @@ export default function EmblaCarousel(){
           <div className="embla__slide">
           <div className='cartao'>
             <button className="embla__prev prev2-btn" onClick={scrollPrev}>
-              <img className="prev2"  src="../../public/setaBaixa.png" alt="seta" />
+              <img className="prev2"  src={setaBaixa} alt="seta" />
             </button>
-                <img src="../../public/card1.png" alt="card1" />
+                <img src={card1} alt="card1" />
                 <h4>EDUCATION</h4>
                 <p>
                     Vitae sapien pellentesque habitant morbi
@@ -50,16 +56,16 @@ export default function EmblaCarousel(){
                 </p>
                 <button className='whidth'>TRY IT NOW</button>
                 <button className="embla__next next2-btn" onClick={scrollNext}>
-                  <img className="next2"  src="../../public/setaBaixa.png" alt="seta" />
+                  <img className="next2"  src={setaBaixa} alt="seta" />
                 </button>
             </div>
           </div>
           <div className="embla__slide">
           <div className='cartao' >
             <button className="embla__prev prev2-btn" onClick={scrollPrev}>
-              <img className="prev2"  src="../../public/setaBaixa.png" alt="seta" />
+              <img className="prev2"  src={setaBaixa} alt="seta" />
             </button>
-                <img src="../../public/card2.png" alt="card2" />
+                <img src={card2} alt="card2" />
                 <h4>SELF-CARE</h4>
                 <p>
                     Vitae sapien pellentesque habitant morbi
@@ -68,16 +74,16 @@ export default function EmblaCarousel(){
                 </p>
                 <button className='whidth'>TRY IT NOW</button>
                 <button className="embla__next next2-btn" onClick={scrollNext}>
-                  <img className="next2"  src="../../public/setaBaixa.png" alt="seta" />
+                  <img className="next2"  src={setaBaixa} alt="seta" />
                 </button>
             </div>
           </div>
           <div className="embla__slide">
           <div className='cartao' >
             <button className="embla__prev prev2-btn" onClick={scrollPrev}>
-              <img className="prev2"  src="../../public/setaBaixa.png" alt="seta" />
+              <img className="prev2"  src={setaBaixa} alt="seta" />
             </button>
-                <img src="../../public/card3.png" alt="card3" />
+                <img src={card3} alt="card3" />
                 <h4>OUTDOOR</h4>
                 <p>
                     Vitae sapien pellentesque habitant morbi
@@ -86,7 +92,7 @@ export default function EmblaCarousel(){
                 </p>
                 <button className='whidth'>TRY IT NOW</button>
                 <button className="embla__next next2-btn" onClick={scrollNext}>
-                  <img className="next2"  src="../../public/setaBaixa.png" alt="seta" />
+                  <img className="next2"  src={setaBaixa} alt="seta" />
                 </button>
             </div>
           </div>

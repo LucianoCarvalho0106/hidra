@@ -1,7 +1,9 @@
 import "./carrosel.css"
-
 import React, { useCallback } from 'react'
 import useEmblaCarousel from 'embla-carousel-react'
+
+import setaBaixa from "../../images/setaBaixa.png"
+import page1 from "../../images/Page-1.png"
 
 export const EmblaCarousel = () => {
   const [emblaRef, emblaApi] = useEmblaCarousel({loop:true})
@@ -21,17 +23,17 @@ export const EmblaCarousel = () => {
 
           <div className="embla__slide">
           <div className="left-container">
-                <div><img src="../../public/Page-1.png" alt="page1" /></div>
+                <div><img src={page1} alt="page1" /></div>
                 <div className="align">
                 <button className="embla__prev" onClick={scrollPrev}>
-                   <img className="prev"  src="../../public/setaBaixa.png" alt="seta" />
+                   <img className="prev"  src={setaBaixa} alt="seta" />
                 </button>
                 <div >
                     <h3 className="center">Pay Us a Visit</h3>
                     <p className="wid">Union St, Seattle, WA 98101, United States</p>
                 </div>
                 <button className="embla__next" onClick={scrollNext}>
-                    <img className="next"  src="../../public/setaBaixa.png" alt="seta" />
+                    <img className="next"  src={setaBaixa} alt="seta" />
                 </button>
                 </div>
             </div>

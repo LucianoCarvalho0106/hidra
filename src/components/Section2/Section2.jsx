@@ -1,12 +1,17 @@
 import "./section2.css"
 
+import Component1  from "../../images/Component 1.png"
+import vector7  from "../../images/Vector 7.png"
+import vector8  from "../../images/Vector 8.png"
+
+
 export default function Section2(){
     return(
         <section className="contents">
             <div className="flex-collum">
                 <div className="introduction">
                     <h3 id="introduction-h3"><span>INTRODUCTION</span><br />TO HYDRA VR</h3>
-                    <img className="seta-longa" src="../../public/Component 1.png" alt="seta longa" />
+                    <img className="seta-longa" src={Component1} alt="seta longa" />
                 </div>
                 <div className="pessoa-oculos"></div>
                 
@@ -25,9 +30,9 @@ export default function Section2(){
                 <button className="lets">LET’S GET IN TOUCH</button>
                 <div className="title-oculos">
                     <h3 className="why-build"><span>WHY BUILD</span> <br />WITH HYDRA?</h3>
-                    <img className="seta-longa" src="../../public/Component 1.png" alt="seta longa" />
-                    <img className="vector7" src="../../public/Vector 7.png" alt="vector7" />
-                    <img className="vector8" src="../../public/Vector 8.png" alt="vector8" />
+                    <img className="seta-longa" src={Component1} alt="seta longa" />
+                    <img className="vector7" src={vector7} alt="vector7" />
+                    <img className="vector8" src={vector8} alt="vector8" />
                     
                 </div>
                

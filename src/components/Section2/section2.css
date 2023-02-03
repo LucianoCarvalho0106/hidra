@@ -47,7 +47,7 @@ section p {
     height: 557px;
     left: 580px;
     transform: matrix(-1, 0, 0, 1, 0, 0);
-    background-image: url("../../../public/Mask group.png");
+    background-image: url("../../images/MaskGroup.png");
     transform: rotatex(360deg);
     margin-top: 8em;
 }
@@ -169,7 +169,7 @@ section button{
     .pessoa-oculos{
         width: 100%;
         transform: matrix(-1, 0, 0, 1, 0, 0);
-        background-image: url("../../../public/Mask group.png");
+        background-image: url("../../images/MaskGroup.png");
         background-size: contain;
         background-repeat: no-repeat;
         transform: rotatex(360deg);
