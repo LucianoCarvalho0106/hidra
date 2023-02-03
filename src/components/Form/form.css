@@ -8,6 +8,7 @@
     margin:10em auto;
     border-radius: 30px;
     padding: 3.5em;
+    overflow-x: hidden;
 }
 .container-form span h2{
     font-family: 'Montserrat';

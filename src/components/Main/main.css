@@ -119,4 +119,7 @@ main button{
     .right{
         width: 90%;
     }
+    .vector1,.vector2,.vector3,.vector4{
+        display: none;
+    }
 }

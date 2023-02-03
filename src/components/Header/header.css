@@ -6,6 +6,8 @@
     box-sizing: border-box;
     font-family: sans-serif;
 }
+
+
 body{
     background-color: #302C42;
 }
@@ -132,4 +134,13 @@ header button{
         margin: 10px 0;
     }
     
+}
+
+@media (max-width:515px){
+    .mobile  ul {
+        width: 70%;
+    }
+    .mobile .btns-header button{
+        width: auto;
+    }
 }
