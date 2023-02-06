@@ -13,7 +13,7 @@ function Header (){
         <header className={`${mobile ? 'mobile' : ''}`}>
             <div className="logo">
                 <img src={logo} alt="logo" />
-                <div>HIDRA</div>
+                <div id="hidraId">HIDRA</div>
             </div>
             <ul>
                 <li>ABOUT</li>

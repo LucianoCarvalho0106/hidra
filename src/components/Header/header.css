@@ -82,7 +82,12 @@ header button{
         width: 0%;
         transition: all .5s;
     }
-
+    header{
+        position: sticky;
+        top: 0;
+        z-index: 1500;
+        background-color: #302C42;
+    }
     
     .btn-menu{
         display: flex;
@@ -133,7 +138,9 @@ header button{
     header ul li{
         margin: 10px 0;
     }
-    
+    #hidraId{
+        display: none;
+    }
 }
 
 @media (max-width:515px){
@@ -142,5 +149,9 @@ header button{
     }
     .mobile .btns-header button{
         width: auto;
+    }
+
+    header {
+        padding: 15px 5px;
     }
 }

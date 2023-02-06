@@ -117,7 +117,7 @@
     top: -16.5em;
   }
 }
-@media (max-width:391px){
+@media (max-width:393px){
   .cartao{
     width: 90%;
   }
@@ -136,4 +136,10 @@
     
   }
 
+}
+@media (max-width:375px){
+  .next2-btn{
+    top: -13.5em;
+    right: -10em;
+  }
 }
