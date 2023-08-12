@@ -5,7 +5,8 @@ import mail from "../../images/mail.png"
 
 export default function Contact(){
     return(
-        <div className="container-contact">
+        <div className="content">
+                <div className="container-contact">
             <div className="left-container">
                 <div><img src={page1} alt="page1" /></div>
                 <div>
@@ -30,6 +31,8 @@ export default function Contact(){
                 </div>
             </div>
 
+            </div>
         </div>
+        
     )
 }

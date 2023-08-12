@@ -7,6 +7,11 @@
     margin: 9em 2em;
     gap: 2em;
     padding: 2em 3em;
+    max-width: 1320px;
+}
+.content{
+    display: flex;
+    justify-content: center;
 }
 .left-container,.center-container,.right-container{
     display: flex;
@@ -35,3 +40,4 @@
         display: none;
     }
 }
+
